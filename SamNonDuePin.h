@@ -41,12 +41,12 @@ static const uint8_t X6  = 6;
 static const uint8_t X7  = 7;
 static const uint8_t X8  = 8;
 //HSMCI
-static const uint8_t PIN_HSMCI_MCCDA_GPIO  = 9;
-static const uint8_t PIN_HSMCI_MCCK_GPIO  = 10;
-static const uint8_t PIN_HSMCI_MCDA0_GPIO  = 11;
-static const uint8_t PIN_HSMCI_MCDA1_GPIO  = 12;
-static const uint8_t PIN_HSMCI_MCDA2_GPIO  = 13;
-static const uint8_t PIN_HSMCI_MCDA3_GPIO  = 14;
+//static const uint8_t PIN_HSMCI_MCCDA_GPIO  = 9;
+//static const uint8_t PIN_HSMCI_MCCK_GPIO  = 10;
+//static const uint8_t PIN_HSMCI_MCDA0_GPIO  = 11;
+//static const uint8_t PIN_HSMCI_MCDA1_GPIO  = 12;
+//static const uint8_t PIN_HSMCI_MCDA2_GPIO  = 13;
+//static const uint8_t PIN_HSMCI_MCDA3_GPIO  = 14;
 //EMAC
 static const uint8_t PIN_EMAC_EREFCK_GPIO  = 15; //What is this one for?
 static const uint8_t PIN_EMAC_EREFCK  = 15;

@@ -234,7 +234,7 @@ void analogWriteNonDue(uint32_t ulPin, uint32_t ulValue) {
 //initialise HSMCI pins
 void hsmciPinsinit()
 {
-  PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPinConfiguration);
+ /* PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCCDA_GPIO].ulPinConfiguration);
   PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCCK_GPIO].ulPinConfiguration);
   PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCDA0_GPIO].ulPinConfiguration);
   PIO_Configure(nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].pPort,nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].ulPinType,nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].ulPin,nonDuePinDescription[PIN_HSMCI_MCDA1_GPIO].ulPinConfiguration);
@@ -245,7 +245,7 @@ void hsmciPinsinit()
   digitalWriteNonDue(PIN_HSMCI_MCDA0_GPIO, HIGH);
   digitalWriteNonDue(PIN_HSMCI_MCDA1_GPIO, HIGH);
   digitalWriteNonDue(PIN_HSMCI_MCDA2_GPIO, HIGH);
-  digitalWriteNonDue(PIN_HSMCI_MCDA3_GPIO, HIGH);
+  digitalWriteNonDue(PIN_HSMCI_MCDA3_GPIO, HIGH);*/
 }
 
 //initialise ethernet pins
