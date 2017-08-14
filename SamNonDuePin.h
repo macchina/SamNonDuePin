@@ -27,7 +27,7 @@ See undefined.cpp file for more info
 #include "Arduino.h"
 
 // Number of pins defined in PinDescription array
-#define PINS_C 14
+#define PINS_C 25
 
 //undefined pins constants so the undef pins can
 //be refered to a Xn rather than n
@@ -39,13 +39,25 @@ static const uint8_t X4  = 4;
 static const uint8_t X5  = 5;
 static const uint8_t X6  = 6;
 static const uint8_t X7  = 7; //not used
+//HSMCI
 static const uint8_t PIN_HSMCI_MCCDA_GPIO  = 8;
 static const uint8_t PIN_HSMCI_MCCK_GPIO  = 9;
 static const uint8_t PIN_HSMCI_MCDA0_GPIO  = 10;
 static const uint8_t PIN_HSMCI_MCDA1_GPIO  = 11;
 static const uint8_t PIN_HSMCI_MCDA2_GPIO  = 12;
 static const uint8_t PIN_HSMCI_MCDA3_GPIO  = 13;
-
+static const uint8_t PIN_EMAC_EREFCK_GPIO  = 14;
+//EMAC
+static const uint8_t PIN_EMAC_EREFCK  = 15;
+static const uint8_t PIN_EMAC_ETXEN  = 16;
+static const uint8_t PIN_EMAC_ETX0  = 17;
+static const uint8_t PIN_EMAC_ETX1  = 18;
+static const uint8_t PIN_EMAC_ECRSDV  = 19;
+static const uint8_t PIN_EMAC_ERX0  = 20;
+static const uint8_t PIN_EMAC_ERX1  = 21;
+static const uint8_t PIN_EMAC_ERXER  = 22;
+static const uint8_t PIN_EMAC_EMDC  = 23;
+static const uint8_t PIN_EMAC_EMDIO  = 24;
 
 // struct used to hold the descriptions for the "non arduino" pins.
 // from the Arduino.h files
@@ -56,5 +68,6 @@ extern int digitalReadNonDue( uint32_t ulPin);
 extern void analogWriteNonDue(uint32_t ulPin, uint32_t ulValue);
 extern void analogOutputNonDue();
 extern void hsmciPinsinit();
+extern void ethPinsInit();
 #endif /* SAM_NON_DUE_PIN_H */
 
