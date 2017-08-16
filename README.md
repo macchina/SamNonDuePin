@@ -3,12 +3,16 @@
 This library allows access to the pins on the SAM3X8E that are not defined in the Arduino
 pin description.
 
-This version in this branch was tested with the [Macchina M2](https://www.macchina.cc/) and the example was written with the M2 in mind.  For other boards, you may want a different [branch](#branches).
+This released version was coordinated the [Macchina M2](https://www.macchina.cc/) project and the included example was written for that board.  However, the library should be generally useful for other SAM based boards.
 
-## Branches
+## Contributing
+Please open issues and create pull requests.
+
+### Branches
 
 This repository contains a unified history of the major forks of this library:
 
+  * **master** - this branch containing the active release.  It is only slightly modified from jmgiacalone.
   * [reprap](https://github.com/macchina/SamNonDuePin/tree/reprap) - history from [RepRapFirmware](https://github.com/dc42/RepRapFirmware) where the library was originally released and most developed.  (The latest commit is empty because RepRapFirmware removed the library, but the history in this branch is useful if you want to get the later versions).
     * The following command against that repository will recreate the history here: `git filter-branch --prune-empty --subdirectory-filter Libraries/SamNonDuePin`
   * [jmgiacalone](https://github.com/macchina/SamNonDuePin/tree/jmgiacalone) - Despite being an older version, [jmgiacalone/Arduino-libraries](https://github.com/jmgiacalone/Arduino-libraries) has been the most discoverable source for this library.

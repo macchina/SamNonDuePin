@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For SamNonDuePin
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+pinModeNonDue	KEYWORD2
+digitalWriteNonDue	KEYWORD2
+digitalReadNonDue	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+nonDuePinDescription LITERAL1
