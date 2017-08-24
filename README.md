@@ -3,7 +3,7 @@
 This library allows access to the pins on the SAM3X8E that are not defined in the Arduino
 pin description.
 
-This released version was coordinated the [Macchina M2](https://www.macchina.cc/) project and the included example was written for that board.  However, the library should be generally useful for other SAM based boards.
+This released version was coordinated by [Macchina](https://www.macchina.cc/) for their M2 project and the included example was written for that board.  While the [custom Macchina M2 board configuration](https://github.com/macchina/arduino-boards-sam) is now preferred for the Macchina M2 (instead of this library), this library is still generally useful for other SAM-based boards.
 
 ## Contributing
 Please open issues and create pull requests.
