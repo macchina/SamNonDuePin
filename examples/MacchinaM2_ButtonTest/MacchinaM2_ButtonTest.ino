@@ -1,6 +1,11 @@
-/*
-  Demonstrates using "Non-Due" pins for Button inputs and LED outputs.
-*/
+/*  Button Push Example for Macchina M2 - Demonstrates using "Non-Due" pins for Button inputs and LED outputs.
+ *
+ *  Written in October 2016 by rocketjosh <josh@macchina.cc>
+ *
+ *  To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
+ *
+ *  You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
+ */
 
 #include "Arduino.h"
 #include "SamNonDuePin.h"
